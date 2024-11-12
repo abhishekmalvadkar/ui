@@ -45,3 +45,27 @@ const deletedTicket = tickets.splice(completedTicketIndex, 1);
 console.log(`After removing completed ticket = ${tickets}`);
 console.log(`Deleted ticket = ${deletedTicket}`);
 
+for (let index = 1; index < 20; index++) {
+    const element = index;
+    let finalOutput = '';
+    if(element % 3 == 0){
+        var content = 'abhi';
+        let myData = 'kabhi';
+        finalOutput = finalOutput + 'Fizz';
+    }
+
+    if(element % 5 == 0){
+        finalOutput = finalOutput + 'Buzz';
+    }
+    if(finalOutput){
+        console.log(element);
+        console.log(finalOutput);
+        console.log(content); // valid
+        // console.log(myData); // ReferenceError: myData is not defined
+    }
+}
+
+
+
+
+
