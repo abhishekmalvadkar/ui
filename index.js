@@ -65,6 +65,14 @@ for (let index = 1; index < 20; index++) {
     }
 }
 
+const salaries = [1,2,3,4,5];
+const totalSalaries = salaries.reduce((accum, current) => {
+    return accum + current;
+}, 0);
+console.log(totalSalaries);
+
+
+
 
 
 
