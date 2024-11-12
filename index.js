@@ -1,5 +1,6 @@
 console.log('Hello world !!');
 
+// let and const and templae literals(for concat and multi line string) from es6
 let firstname = 'abhi';
 console.log(`Hello ${firstname}`);
 firstname = 'rushi'; // valid
